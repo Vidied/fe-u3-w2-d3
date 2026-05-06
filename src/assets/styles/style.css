@@ -1,0 +1,129 @@
+.text-light-grey {
+  color: lightgrey;
+}
+
+.bg-grey {
+  background-color: rgb(54, 54, 54);
+}
+
+.text-light-grey {
+  color: lightgrey;
+}
+
+.bg-grey {
+  background-color: rgb(54, 54, 54);
+}
+
+.smaller {
+  font-size: 0.6rem;
+}
+
+.smaller2 {
+  font-size: 0.8rem;
+}
+
+.btn-trasp {
+  background-color: transparent;
+  border: 1px solid grey;
+  color: grey;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.btn-trasp:hover {
+  color: white;
+  border-color: white;
+}
+
+.l-spa-1px {
+  letter-spacing: 1px;
+}
+
+.h-30px {
+  height: 30px;
+}
+
+.bg-netflix {
+  background-color: #141414;
+}
+
+.sfumatura {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.logo {
+  display: inline-block;
+  width: 10%;
+  min-width: 100px;
+  max-width: 150px;
+}
+.logo img {
+  height: 100%;
+  width: 100%;
+}
+
+.nav-link.small-forzato {
+  font-size: 0.75rem;
+  width: 100%;
+}
+
+.icone {
+  width: 30px;
+  height: 20px;
+  padding: 0.25rem;
+}
+
+textarea {
+  background-color: grey;
+  height: 1.6rem;
+  color: white;
+  overflow: hidden;
+  resize: none;
+}
+
+.form-check-input {
+  width: 1.2rem;
+  height: 1.2rem;
+  cursor: pointer;
+}
+.form-check-input:checked {
+  background-color: transparent;
+  border-color: grey;
+}
+.form-check-input:focus {
+  box-shadow: none;
+}
+
+.profile-img {
+  width: 100%;
+  max-width: 150px;
+}
+
+.membership {
+  background-color: #e6e6e6;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  color: #000;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+.membership:hover {
+  background-color: #d9d9d9;
+}
+.membership:active {
+  background-color: #ccc;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+html,
+body {
+  height: 100% !important;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}

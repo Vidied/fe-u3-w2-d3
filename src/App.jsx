@@ -4,6 +4,8 @@ import Gallery from "./assets/components/Gallery";
 import Profile from "./assets/components/Profile";
 import Settings from "./assets/components/Settings";
 import { BrowserRouter, Routes, Route } from "react-router";
+import TVShows from "./assets/components/TVShows";
+import MoviesDetails from "./assets/components/MovieDetails";
 
 function App() {
   return (
@@ -15,6 +17,11 @@ function App() {
           <Routes>
             <Route path="/Profile" element={<Profile></Profile>}></Route>
             <Route path="/Settings" element={<Settings></Settings>}></Route>
+            <Route path="/TVShows" element={<TVShows></TVShows>}></Route>
+            <Route
+              path="/MoviesDetails/:movieId"
+              element={<MoviesDetails></MoviesDetails>}
+            ></Route>
             <Route
               path="/"
               element={

@@ -1,13 +1,14 @@
 import "../styles/style.css";
+import { Link } from "react-router";
 
 const HeaderHome = () => {
   return (
     <header className="px-5 sfumatura">
       <nav className="bg-transparent navbar navbar-expand-lg p-0 w-100">
         <div className="container-fluid p-0">
-          <a className="navbar-brand logo" href="#">
+          <Link className="navbar-brand logo nav-link" to="/">
             <img src="./assets/img/netflix_logo.png" alt="logo netflix" />
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -25,33 +26,36 @@ const HeaderHome = () => {
               <div className="d-flex align-items-center">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                   <li className="nav-item">
-                    <a
+                    <Link
                       className="nav-link text-white small-forzato active"
                       aria-current="page"
-                      href="#"
+                      to="/"
                     >
                       Home
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link text-white small-forzato" href="#">
+                    <Link
+                      className="nav-link text-white small-forzato"
+                      to="/TVShows"
+                    >
                       TV Shows
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link text-white small-forzato" href="#">
+                    <Link className="nav-link text-white small-forzato" to="#">
                       Movies
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link text-white small-forzato" href="#">
+                    <Link className="nav-link text-white small-forzato" to="#">
                       Recently Added
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link text-white small-forzato" href="#">
+                    <Link className="nav-link text-white small-forzato" to="#">
                       My List
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
